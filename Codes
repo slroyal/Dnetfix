@@ -5,3 +5,23 @@ pip3 install icmplib requests pysocks cfscrape scapy
 net install
 
 pip3 install -r requirements.txt
+
+pip uninstall pyroxy -y
+
+pip install git+https://github.com/MHProDev/PyRoxy.git
+
+pip show PyRoxy
+
+python3 start.py
+
+pip install cloudscraper
+
+pip install cloudscraper --break-system-packages
+
+pip install -r requirements.txt
+
+source ~/venvs/mhddos/bin/activate
+
+pip install -r requirements.txt
+
+python3 start.py
