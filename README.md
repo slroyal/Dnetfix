@@ -1,3 +1,5 @@
+51.222.14.176:25571
+
 apt install python3-pip -y
 
 mkdir -p ~/.config/pip && echo -e "[global]\nbreak-system-packages = true" > ~/.config/pip/pip.conf
